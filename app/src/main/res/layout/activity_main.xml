@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Calculate Your"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp"
+      />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AGE"
+        android:padding="10dp"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="@color/ageTextColor"
+        android:textSize="24dp"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+       />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="In Minutes"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="24sp"
+        />
+
+    <Button
+        android:id="@+id/MybtnAge"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="Select Date"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:background="@color/buttonBG"
+        android:textColor="@color/buttonTextColor"
+        />
+
+    <TextView
+        android:id="@+id/SelectedDateView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textSize="30dp"
+        android:textColor="@color/selectDated" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selected Date"
+        android:layout_marginTop="10dp"
+        android:textSize="22dp"
+        android:textColor="@color/ageTextBg" />
+
+    <TextView
+        android:id="@+id/AgeView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textSize="30dp"
+        android:textColor="@color/resView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Age In a Minute"
+        android:layout_marginTop="15sp"
+        android:textSize="22dp"
+        android:textColor="@color/ageTextBg" />
+
+   <TextView
+       android:id="@+id/tvDayView"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="10dp"
+       android:textSize="30dp"
+       android:textColor="@color/resView"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Total Number of days on Earth"
+        android:layout_marginTop="15sp"
+        android:textSize="22dp"
+        android:textColor="@color/ageTextBg" />
+
+
+
+
+
+</LinearLayout>
